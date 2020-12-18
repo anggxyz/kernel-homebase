@@ -13,6 +13,14 @@
         <a href="https://kernel.community" class="underline-purple" target="_new">Learn</a>
         <a href="https://kernel-blog.vercel.app" class="underline-purple" target="_new">Blog</a>
       </div>
+      <div id="announcement">
+        <div class="text">
+          <span style="text-decoration:underline;">
+          December 18th, 2020:
+          </span>
+            <br/>Something's brewing ☕️
+        </div>
+      </div>
       <div id="tv">
         <div id="title">Watch Livestream</div>
         <iframe width="720" height="405" src="https://www.youtube.com/embed/?listType=playlist&list=PLvTrX8LNPbPlSr-gW83A2QXUNeLOxyBbd" frameborder="0" allowfullscreen></iframe>
@@ -33,8 +41,23 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+#announcement {
+  text-align: center;
+  border-radius: 16px;
+  height: 100px;
+  width: 500px;
+  line-height: 1.5em;
+  background-color: bisque;
+}
+.text {
+  margin: 15px;
+  font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 #tv {
-  margin-top: 135px;
+  margin-top: 50px;
 }
 #page-1 {
   height: 100vh;
