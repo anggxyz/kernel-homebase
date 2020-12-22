@@ -12,6 +12,7 @@
         <a href="https://bit.ly/kernel0x" class="underline-purple" target="_new">Explorer</a>
         <a href="https://kernel.community" class="underline-purple" target="_new">Learn</a>
         <a href="https://kernel-blog.vercel.app" class="underline-purple" target="_new">Blog</a>
+        <a href="https://www.airmeet.com/e/0d733160-bc9a-11ea-adb7-31ace487329c" class="underline-purple" target="_new">Virtual Hangout</a>
       </div>
       <div id="announcement">
         <div class="text">
@@ -50,6 +51,7 @@ export default {
   width: 500px;
   line-height: 1.5em;
   background-color: bisque;
+  margin: 15px;
 }
 .text {
   margin: 15px;
