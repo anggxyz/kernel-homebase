@@ -21,10 +21,11 @@
             <br/>Something's brewing ☕️
         </div>
       </div>
-      <div id="tv">
+      <!-- <div id="tv">
         <div id="title">Watch Livestream</div>
         <iframe width="720" height="405" src="https://www.youtube.com/embed/?listType=playlist&list=PLvTrX8LNPbPlSr-gW83A2QXUNeLOxyBbd" frameborder="0" allowfullscreen></iframe>
-      </div>
+      </div> -->
+      <a href="https://airtable.com/shr9ryq2w0zU7Wv6p?prefill_Types=Workshop,Junto,Breakout%20session,Fireside" class="fill-button-purple" target="_new">Sign up to receive updates</a>
     </div>
 </template>
 
@@ -107,6 +108,15 @@ a.underline-purple {
 }
 a.underline-purple:hover {
   border-bottom: 3px solid #474791;
+}
+a.fill-button-purple {
+  color: #ffffff;
+  background: #9090F1;
+  border-radius: 16px;
+}
+a.fill-button-purple:hover {
+  background: #474791;
+  border-radius: 16px;
 }
 a.bordered-button-green{
   border: 3px solid #79F1B5;

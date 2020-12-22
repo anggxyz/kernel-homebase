@@ -5,7 +5,7 @@
     <span class="title">
       All Upcoming Events
     </span>
-    <iframe class="airtable-embed" src="https://airtable.com/embed/shr7cMVaXyNSyuafL?backgroundColor=greenLight" frameborder="0" onmousewheel="" width="100%" height="100%" style="background: transparent; solid #ffffff;"></iframe>
+      <iframe class="airtable-embed" src="https://airtable.com/embed/shr7cMVaXyNSyuafL?backgroundColor=greenLight" frameborder="0" onmousewheel="" width="100%" height="100%" style="background: transparent; solid #ffffff;"></iframe>
   </div>
 </div>
 </template>
@@ -43,20 +43,33 @@ a {
   font-family: 'Miriam Libre', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 1.0em;
+  font-size: 1em;
   display: inline-block;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 1em;
+  padding-right: 1em;
   border: 0;
   color: #212144;
-  margin: 10px;
+  margin: 15px;
 }
 a.underline-purple {
   border-bottom: 3px solid #9090F1;
 }
 a.underline-purple:hover {
   border-bottom: 3px solid #474791;
+}
+a.bordered-button-green{
+  border: 3px solid #79F1B5;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+a.bordered-button-green:hover {
+  text-decoration: none;
+  text-decoration-color: #9090F1;
+  /* background: #00CA65; */
+  border: 3px solid #00CA65;
+  box-sizing: border-box;
+  border-radius: 16px;
 }
 </style>
