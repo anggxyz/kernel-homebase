@@ -3,7 +3,7 @@
       <div id="logo"></div>
       <!-- <img src="../assets/kernel-logo.png"> -->
       <div id="buttons">
-        <a href="https://airtable.com/shrLPYeW8XBx6aZUx" class="bordered-button-green" target="_new">Propose a Junto</a>
+        <a href="https://airtable.com/shrLPYeW8XBx6aZUx?prefill_Type%20of%20Event=Junto&prefill_Attendee%20Limit=6" class="bordered-button-green" target="_new">Propose a Junto</a>
         <router-link class="bordered-button-green" to="/juntos">All upcoming Juntos</router-link>
         <router-link class="bordered-button-green" to="/events">All Events</router-link>
         <!-- <a href="" class="bordered-button-green">All Events</a> -->
